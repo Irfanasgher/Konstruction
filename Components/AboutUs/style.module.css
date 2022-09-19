@@ -1,0 +1,26 @@
+.who,
+.whoAll {
+	padding: 10px;
+	background-color: white;
+	color: #000;
+	position: absolute;
+	left: 53%;
+	top: 250px;
+	font-weight: lighter !important;
+}
+
+@media (max-width: 450px) {
+	.image {
+		width: 100% !important;
+		height: auto !important;
+	}
+	.who {
+		left: 17%;
+		top: 150px;
+	}
+	.whoAll {
+		left: 8%;
+		top: 150px;
+		/* font-size: 30px !important; */
+	}
+}

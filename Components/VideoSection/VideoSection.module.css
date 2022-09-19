@@ -1,0 +1,100 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+.heroVideo,
+.video,
+.figure {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100%;
+  /* width: auto;
+  height: auto; */
+  z-index: -100;
+  padding: 0;
+  transform-style: preserve-3d;
+  transition: all 0.8s;
+}
+.banner {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0 3rem 5rem 3rem;
+}
+.thinkBig h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: white;
+}
+.thinkBig p {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.stats h1 {
+  font-weight: 600;
+  font-size: 2.8rem;
+  color: #49c5b1;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+.stats p {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 575.98px) {
+  .banner {
+    padding: 0 1rem 1rem 1rem;
+  }
+  .thinkBig h1 {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .thinkBig p {
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  .stats h1 {
+    font-weight: 700;
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .stats p {
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .banner {
+    padding: 0 1rem 2rem 1rem;
+  }
+  .thinkBig h1 {
+    font-weight: 800;
+    font-size: 2rem;
+  }
+  .thinkBig p {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  .stats h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  .stats p {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}

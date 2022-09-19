@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  padding: 3rem 4rem;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.content {
+  width: 100%;
+  text-align: center;
+}
+.title {
+  margin-top: 1rem;
+}
+.img {
+  max-width: 500px;
+  align-self: center;
+}

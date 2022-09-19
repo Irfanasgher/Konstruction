@@ -1,0 +1,13 @@
+.container {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 2rem;
+}
+.content {
+  width: 100%;
+}
+.para {
+  font-size: 1.3rem;
+}
